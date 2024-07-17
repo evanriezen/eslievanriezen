@@ -1,136 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https: //fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
-        <title>Assen</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-    <style type="text/css">
-
-        body{
-            padding: 0px;
-            margin: 0px;
-        }
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-body{background-color: grey;} @media only screen and (min-width: 768px) {body{background-color: rgb(223, 223, 197);}}
-
-header{
-    font-family: "Seymour One", schreefloos; color: rgb(44, 43, 42);
-    background-image: url(assen.jpg);
-    font-size: 22px;
-    font-weight: 600;
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    margin-left: 10px;
-   }
-
-footer{
-    background-color: rgb(189, 187, 184);
-    width: 100%;
-    min-height: 75px;
-    text-align: center;   
-    color: whitesmoke;
-    padding: 10px;
-    margin-left: 10px;
-    clear: right;
-}
-
-.foto1{
-width: 100px;
-height: 100px;
-float: right;
-border-radius: 5px;
-border: 2px solid white;
-padding: 10px;
-}
-
-.foto2{
-width: 100px;
-height: 100px;
-float: right; 
-border-radius: 5px;
-border: 2px solid white;
-padding: 10px;
-}
-
-p{
-    color: black;
-    padding: 5px;
-}
-
-.col-2{
-    background-color: rgb(159, 209, 192);
-    padding: 10px;
-    height: 600px;
-    display: inline-block;
-    margin: 5px;
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap-CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity=
+"sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous">
+<title>Mijn pagina</title>
+<style type="text/css">
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
     }
 
-.col-9{
-    background-color: cadetblue;
-    padding: 10px;
-    height: 600px;
-    display: inline-block;
-    margin: 5px;
-}
+    footer{
+        min-height: 200px;
+        background-color: grey;
+        color: azure;
+        text-align: center;
+        padding:10px;
+    }
 
-section{
-    display: flex;
-    padding: 5px;
-}
+    p{
+        padding: 10px;
+    }
 
-    </style>
-    </head>
-    <body>
-<header> Assen </header>
-<section>
-<div class="col-2">
-    <h2>5 feitjes over Assen</h2>
-    <ul>
-        <li>69.691 inwoners</li>
-        <li>Een inwoner heet een Assense</li>
-        <li>Eerste TT in 1925</li>
-        <li>Assen heeft ongeveer 400 winkels, waarvan 200 in de binnenstad</li>
-        <li>Assen heeft nog maar 1 basic fit</li>
-    </ul>
-</div>
-<div class="col-9">
-    <div><p> <img class="foto1" src="attractie 1.jpg"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Recusandae excepturi libero impedit dolorum nesciunt ipsum nostrum omnis atque dignissimos, 
-        consectetur ab, quia vitae eius ducimus similique animi. Iusto, ut esse? Lorem ipsum dolor sit 
-        amet consectetur adipisicing elit. Laudantium expedita incidunt quos sed non, maxime minima. 
-        Nobis similique cupiditate exercitationem quas expedita, perferendis commodi neque odio vitae laudantium, 
-        eligendi aliquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil corrupti dolor nesciunt
-        nisi, provident molestiae perferendis, facere cupiditate dolorum illum sint sunt quidem. Error debitis 
-        numquam cumque ab corrupti reiciendis.</p>
+    body{
+        padding:10px;
+    }
+
+    .nav-link{
+        color: white;
+    }
+
+
+
+
+</style>
+</head>
+<body>
+    <div style="background-color: blanchedalmond;">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand">Welkom!</a>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="overmij.html">Over mij</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                </ul>
+                </div>
+                </div>
+                </nav>
+                
+        </header>
+    </div>  
+    <div class=".container-sm" style="background-color: blanchedalmond;">
+        <p>Dit is mijn gemaakte webpagina. Hieronder kun je 9 afbeeldingen
+            vinden van mijn vakanties dit jaar. Ik hou van reizen! <br>
+            Zo was ik dit jaar in Madeira en Zwitserland. Natuur en mooie omgevingen daar kom ik tot rust.
+        </p>
+        <div class="row row-cols-3">
+            <div class="col"><img src="oeschienensee.png"></div>
+            <div class="col"><img src="Blausee.png"></div>
+            <div class="col"><img src="hike.png"></div>
+            <div class="col"><img src="hike 2.png"></div>
+            <div class="col"><img src="hangbrug.png"></div>
+            <div class="col"><img src="hike3.png"></div>
+            <div class="col"><img src="chapel bridge.png"></div>
+            <div class="col"><img src="koe.png"></div>
+            <div class="col"><img src="rheinfall.png"></div>
     </div>
-    <br>
-    <div><p> <img class="foto2" src="attractie 2.jpg"></p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Iusto voluptates accusantium, vero similique quia praesentium ab suscipit, architecto consequatur, voluptatem 
-        alias rerum eum enim est tempore ducimus. Minima, natus soluta! Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Voluptatibus nihil quod eius
-        sed. Iste totam consequuntur quis eius recusandae delectus, placeat laudantium 
-        nemo fugit perspiciatis cumque exercitationem iure accusamus veritatis! Lorem ipsum dolor sit amet, 
-        consectetur 
-        adipisicing elit. Eos iure odio nostrum hic eum illum nihil harum voluptatem est distinctio incidunt 
-        voluptatibus, nesciunt ducimus sed vero cupiditate inventore maxime! Molestiae. 
-        </div>
-</div>
-</section>
-<footer>Eslie van Riezen, 2024</footer>
+    </div>
+    <footer>©2024, Eslie van Riezen</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity=
+"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous">
+</script>
 </body>
 </html>
